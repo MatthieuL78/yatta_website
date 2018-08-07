@@ -1,0 +1,1 @@
+.container{display:grid;grid-gap:10px;grid-template-columns:120px 120px 120px}.one{grid-column:1 / 3;grid-row:1;border:2px solid black}.two{grid-column:2 / 4;grid-row:1 / 3;border:2px solid black}.three{grid-column:1;grid-row:2 / 5;border:2px solid black}
