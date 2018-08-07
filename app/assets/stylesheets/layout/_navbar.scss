@@ -1,0 +1,23 @@
+@import "../helpers/variables";
+
+@mixin hover-color($color){
+	&:hover {
+		background-color: $color;
+	};
+}
+
+.item-c {
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		background-color: $navbar_color;
+	}
+
+	li {
+		display: block;
+		color: #000;
+		text-decoration: none;
+		@include hover-color($navbar_color_hover);
+	}
+}
