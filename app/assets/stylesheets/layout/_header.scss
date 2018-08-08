@@ -4,15 +4,20 @@
 	background-color: $header-color;
 	border-radius: $header_radius;
 	margin: $header_margin;
-	padding: $header_padding;
 }
 
 header {
 	.header-a {
 		@include header_decoration;
+		padding: $header_padding;
 	}
 
 	.header-b {
 		@include header_decoration;
+		padding: 5px;
+		li {
+			display: inline;
+			margin: 15px;
+		}
 	}
 }

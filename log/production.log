@@ -556,3 +556,30 @@ I, [2018-08-08T11:19:35.723125 #3352]  INFO -- : [337c8d78-75c8-480f-a9c6-3394d3
 I, [2018-08-08T11:19:35.723506 #3352]  INFO -- : [337c8d78-75c8-480f-a9c6-3394d327f86d] Completed 200 OK in 38ms (Views: 22.5ms)
 I, [2018-08-08T11:19:35.770880 #3352]  INFO -- : [0fbcec1b-7a6f-49b5-9ad9-42bd93fe6f9d] Started GET "/assets/application-e0f29cd8ea77d3b1ef260ccd37bf117131a5a9a334367f8bae8f65d2c08930dc.css" for 127.0.0.1 at 2018-08-08 11:19:35 +0200
 I, [2018-08-08T11:19:35.771188 #3352]  INFO -- : [7c7a10d3-70fb-4735-a28d-59db4c496062] Started GET "/assets/application-3d232d8492695f603ca103adc62fa88bdd387051350783b91f1f11b31db47bf8.js" for 127.0.0.1 at 2018-08-08 11:19:35 +0200
+I, [2018-08-08T11:27:23.941048 #3880]  INFO -- : [8e1b0ccd-4343-443d-b7a6-c24c4bd18d33] Started GET "/" for 127.0.0.1 at 2018-08-08 11:27:23 +0200
+I, [2018-08-08T11:27:23.942644 #3880]  INFO -- : [8e1b0ccd-4343-443d-b7a6-c24c4bd18d33] Processing by MainController#home as HTML
+I, [2018-08-08T11:27:23.959276 #3880]  INFO -- : [8e1b0ccd-4343-443d-b7a6-c24c4bd18d33]   Rendering main/home.html.erb within layouts/application
+I, [2018-08-08T11:27:23.959807 #3880]  INFO -- : [8e1b0ccd-4343-443d-b7a6-c24c4bd18d33]   Rendered main/home.html.erb within layouts/application (0.3ms)
+I, [2018-08-08T11:27:23.964052 #3880]  INFO -- : [8e1b0ccd-4343-443d-b7a6-c24c4bd18d33]   Rendered layouts/_header.html.erb (0.2ms)
+I, [2018-08-08T11:27:23.967234 #3880]  INFO -- : [8e1b0ccd-4343-443d-b7a6-c24c4bd18d33]   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2018-08-08T11:27:23.967516 #3880]  INFO -- : [8e1b0ccd-4343-443d-b7a6-c24c4bd18d33] Completed 200 OK in 25ms (Views: 14.8ms)
+I, [2018-08-08T11:27:24.008543 #3880]  INFO -- : [7680b661-715e-47eb-84ed-4bf50d4b3659] Started GET "/assets/application-287f5493fed6f677b81c51632ac65c27dce7300c31501077d7128464a497067e.css" for 127.0.0.1 at 2018-08-08 11:27:24 +0200
+I, [2018-08-08T11:27:24.103807 #3880]  INFO -- : [b01e9dd0-0f4f-435a-af4f-1ece8bc311d6] Started GET "/assets/application-3d232d8492695f603ca103adc62fa88bdd387051350783b91f1f11b31db47bf8.js" for 127.0.0.1 at 2018-08-08 11:27:24 +0200
+I, [2018-08-08T11:27:52.397839 #4024]  INFO -- : [905a31dd-bc75-4e93-8db7-ef80373c2ac1] Started GET "/" for 127.0.0.1 at 2018-08-08 11:27:52 +0200
+I, [2018-08-08T11:27:52.399215 #4024]  INFO -- : [905a31dd-bc75-4e93-8db7-ef80373c2ac1] Processing by MainController#home as HTML
+I, [2018-08-08T11:27:52.413542 #4024]  INFO -- : [905a31dd-bc75-4e93-8db7-ef80373c2ac1]   Rendering main/home.html.erb within layouts/application
+I, [2018-08-08T11:27:52.413940 #4024]  INFO -- : [905a31dd-bc75-4e93-8db7-ef80373c2ac1]   Rendered main/home.html.erb within layouts/application (0.3ms)
+I, [2018-08-08T11:27:52.417458 #4024]  INFO -- : [905a31dd-bc75-4e93-8db7-ef80373c2ac1]   Rendered layouts/_header.html.erb (0.2ms)
+I, [2018-08-08T11:27:52.420609 #4024]  INFO -- : [905a31dd-bc75-4e93-8db7-ef80373c2ac1]   Rendered layouts/_footer.html.erb (0.2ms)
+I, [2018-08-08T11:27:52.420844 #4024]  INFO -- : [905a31dd-bc75-4e93-8db7-ef80373c2ac1] Completed 200 OK in 21ms (Views: 12.4ms)
+I, [2018-08-08T11:27:52.456080 #4024]  INFO -- : [5f05219e-5c71-4807-b9b9-7aa321657d76] Started GET "/assets/application-390a17d75d48728ae1a3f0f6ac8455c49a0db4f521ae034dc828d048e79e6b29.css" for 127.0.0.1 at 2018-08-08 11:27:52 +0200
+I, [2018-08-08T11:27:52.456426 #4024]  INFO -- : [92444986-140b-402f-8ccd-2c5d4ebe2084] Started GET "/assets/application-3d232d8492695f603ca103adc62fa88bdd387051350783b91f1f11b31db47bf8.js" for 127.0.0.1 at 2018-08-08 11:27:52 +0200
+I, [2018-08-08T11:29:04.317405 #4182]  INFO -- : [fa50c3db-90c3-46fb-bc50-b598e4f086c9] Started GET "/" for 127.0.0.1 at 2018-08-08 11:29:04 +0200
+I, [2018-08-08T11:29:04.319435 #4182]  INFO -- : [fa50c3db-90c3-46fb-bc50-b598e4f086c9] Processing by MainController#home as HTML
+I, [2018-08-08T11:29:04.343179 #4182]  INFO -- : [fa50c3db-90c3-46fb-bc50-b598e4f086c9]   Rendering main/home.html.erb within layouts/application
+I, [2018-08-08T11:29:04.343839 #4182]  INFO -- : [fa50c3db-90c3-46fb-bc50-b598e4f086c9]   Rendered main/home.html.erb within layouts/application (0.4ms)
+I, [2018-08-08T11:29:04.349312 #4182]  INFO -- : [fa50c3db-90c3-46fb-bc50-b598e4f086c9]   Rendered layouts/_header.html.erb (0.3ms)
+I, [2018-08-08T11:29:04.353183 #4182]  INFO -- : [fa50c3db-90c3-46fb-bc50-b598e4f086c9]   Rendered layouts/_footer.html.erb (0.3ms)
+I, [2018-08-08T11:29:04.353549 #4182]  INFO -- : [fa50c3db-90c3-46fb-bc50-b598e4f086c9] Completed 200 OK in 34ms (Views: 19.6ms)
+I, [2018-08-08T11:29:04.407247 #4182]  INFO -- : [e36968d4-7fae-479a-8932-2f4346cc69a6] Started GET "/assets/application-09240344f209fe29cca7533aeca33b3ce5e5c17b2b2772a6175aaca6228dc6f5.css" for 127.0.0.1 at 2018-08-08 11:29:04 +0200
+I, [2018-08-08T11:29:04.407621 #4182]  INFO -- : [03a4189d-f616-4c14-abeb-dcebbf641739] Started GET "/assets/application-3d232d8492695f603ca103adc62fa88bdd387051350783b91f1f11b31db47bf8.js" for 127.0.0.1 at 2018-08-08 11:29:04 +0200
