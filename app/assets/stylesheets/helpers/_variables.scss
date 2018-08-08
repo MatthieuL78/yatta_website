@@ -1,2 +1,37 @@
-$navbar_color: blue;
-$navbar_color_hover: green;
+/* **** */
+/* GRID */
+/* **** */
+$col_size_1: 150px;
+$col_size_2: auto;
+$col_size_3: auto;
+$col_size_4: auto;
+$row_size_1: auto;
+$row_size_2: auto;
+$row_size_3: auto;
+$row_size_4: auto;
+
+/* ****** */
+/* NAVBAR */
+/* ****** */
+$navbar_color: red;
+$navbar_color_hover: white;
+$navbar_color_text: black;
+$navbar_radius: 5px;
+$navbar_margin: 0;
+$navbar_padding: 3px;
+
+/* ****** */
+/* HEADER */
+/* ****** */
+$header_color: red;
+$header_radius: 5px;
+$header_margin: 5px;
+$header_padding: 25px;
+
+/* ****** */
+/* FOOTER */
+/* ****** */
+$footer_color: red;
+$footer_radius: 5px;
+$footer_margin: 0;
+$footer_padding: 25px;

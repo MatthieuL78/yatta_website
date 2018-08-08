@@ -1,30 +1,33 @@
-.item-a {
-	grid-area: header;
-	background-color: red;
+@import "../helpers/variables";
+
+.header-a {
+	grid-area: headerA;
 }
 
-.item-b {
+.header-b {
+	grid-area: headerB;
+}
+
+.main-a {
 	grid-area: main;
-	background-color: blue;
 }
 
-.item-c {
+.navbar-a {
 	grid-area: sidebar;
-	background-color: yellow;
 }
 
-.item-d {
+.footer-a {
 	grid-area: footer;
-	background-color: green;
 }
 
 .container {
 	display: grid;
 	grid-gap: 10px;
-	grid-template-columns: auto auto auto auto;
-	grid-template-rows: auto auto auto;
+	grid-template-columns: $col_size_1 $col_size_2 $col_size_3 $col_size_4;
+	grid-template-rows: $row_size_1 $row_size_2 $row_size_3 $row_size_4;
 	grid-template-areas: 
-	". header header header"
+	". headerA headerA headerA"
+	". headerB headerB headerB"
 	"sidebar main main main"
 	". footer footer footer";
 }

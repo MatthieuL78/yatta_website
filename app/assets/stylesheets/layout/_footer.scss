@@ -1,3 +1,8 @@
+@import "../helpers/variables";
+
 footer {
-	background-color: blue;
+	background-color: $footer_color;
+	border-radius: $footer_radius;
+	margin: $footer_margin;
+	padding: $footer_padding;
 }

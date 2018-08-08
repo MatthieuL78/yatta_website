@@ -1,3 +1,18 @@
+@import "../helpers/variables";
+
+@mixin header_decoration {
+	background-color: $header-color;
+	border-radius: $header_radius;
+	margin: $header_margin;
+	padding: $header_padding;
+}
+
 header {
-	background-color: red;
+	.header-a {
+		@include header_decoration;
+	}
+
+	.header-b {
+		@include header_decoration;
+	}
 }
