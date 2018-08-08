@@ -1,5 +1,10 @@
 @import "../helpers/variables";
 
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
 .logo {
 	grid-area: logo;
 }
@@ -10,6 +15,10 @@
 
 .main-a {
 	grid-area: main;
+	background-color: $main_color;
+	border-radius: $main_radius;
+	margin: $main_margin;
+	padding: $main_padding;
 }
 
 .navbar-a {
@@ -21,6 +30,7 @@
 }
 
 .container {
+	min-height: 100%;
 	display: grid;
 	grid-gap: 10px;
 	grid-template-columns: $col_size_1 $col_size_2 $col_size_3 $col_size_4;

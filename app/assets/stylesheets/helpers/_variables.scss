@@ -6,9 +6,8 @@ $col_size_2: auto;
 $col_size_3: auto;
 $col_size_4: auto;
 $row_size_1: auto;
-$row_size_2: auto;
+$row_size_2: 1fr;
 $row_size_3: auto;
-$row_size_4: auto;
 
 /* ****** */
 /* NAVBAR */
@@ -19,6 +18,14 @@ $navbar_color_text: black;
 $navbar_radius: 5px;
 $navbar_margin: 0;
 $navbar_padding: 3px;
+
+/* ****** */
+/* MAIN */
+/* ****** */
+$main_color: red;
+$main_radius: 5px;
+$main_margin: 5px;
+$main_padding: 25px;
 
 /* ****** */
 /* HEADER */
