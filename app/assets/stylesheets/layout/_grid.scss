@@ -1,11 +1,7 @@
 @import "../helpers/variables";
 
-.header-a {
-	grid-area: headerA;
-}
-
-.header-b {
-	grid-area: headerB;
+.header-total {
+	grid-area: header;
 }
 
 .main-a {
@@ -24,10 +20,9 @@
 	display: grid;
 	grid-gap: 10px;
 	grid-template-columns: $col_size_1 $col_size_2 $col_size_3 $col_size_4;
-	grid-template-rows: $row_size_1 $row_size_2 $row_size_3 $row_size_4;
+	grid-template-rows: $row_size_1 $row_size_2 $row_size_3;
 	grid-template-areas: 
-	". headerA headerA headerA"
-	". headerB headerB headerB"
+	". header header header"
 	"sidebar main main main"
 	". footer footer footer";
 }
