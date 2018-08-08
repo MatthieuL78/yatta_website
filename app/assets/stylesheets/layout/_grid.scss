@@ -1,5 +1,9 @@
 @import "../helpers/variables";
 
+.logo {
+	grid-area: logo;
+}
+
 .header-total {
 	grid-area: header;
 }
@@ -22,7 +26,7 @@
 	grid-template-columns: $col_size_1 $col_size_2 $col_size_3 $col_size_4;
 	grid-template-rows: $row_size_1 $row_size_2 $row_size_3;
 	grid-template-areas: 
-	". header header header"
+	"logo header header header"
 	"sidebar main main main"
 	". footer footer footer";
 }

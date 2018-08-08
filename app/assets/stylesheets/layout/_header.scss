@@ -6,6 +6,10 @@
 	margin: $header_margin;
 }
 
+.logo {
+	margin: 55px;
+}
+
 header {
 	.header-a {
 		@include header_decoration;
